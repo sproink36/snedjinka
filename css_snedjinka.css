@@ -1,0 +1,269 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #69a6b5;
+    opacity: 0.8;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 1024px;
+
+    background: linear-gradient(to left, transparent, rgba(203, 243, 255, 0.3) 50%, transparent);
+}
+
+.white_text {
+    font-size: 27.3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    height: 30px;
+}
+
+.mini_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 245px;
+    height: 30px;
+    font-size: 27.3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.box_img img {
+    transition: 0.2s linear;
+}
+
+.box_img:hover img {
+    transform: scale(1.2);
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    height: 850px;
+}
+
+.fon {
+    width: inherit;
+    height: 480px;
+    background: url(Layer_2.png) center no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+/* Search */
+
+.search {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 430px;
+}
+
+.search_text {
+    width: 340px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.search_text span {
+    text-transform: none;
+}
+
+.people_walking {
+    width: 450px;
+    height: 40px;
+
+    position: relative;
+}
+
+.people_walking input {
+    width: inherit;
+    height: inherit;
+    padding-left: 18px;
+    background-color: white;
+    border: none;
+    font-size: 21.3px;
+    color: #afafaf;
+    text-transform: none;
+}
+
+.people_walking::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 92%;
+    top: 0%;
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.people_walking input{
+    background-image: url(lup.png);
+    background-repeat: no-repeat;
+    background-position: 95%; 
+}
+
+
+/* Register */
+
+.register {
+    clear:both;
+    width: 100%;
+    height: 115px;
+    background-color: white;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.register_flex {
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 720px;
+    height: 64px;
+}
+
+.register_text {
+    font-size: 37px;
+    color: #8b8b8b;
+}
+
+.register_ref{
+    height: 100%;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8fcddc;
+}
+
+.register_ref span{
+    font-size: 37px;
+    color: #ffffff;
+    
+}
+
+    /* Category */ 250 80
+
+.category{
+    width: 100%;
+    height: 280px;
+    background-color: white;
+}
+
+.text_category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.text_category span{
+    font-size: 23px;
+    color: #636363;
+    text-transform: uppercase;
+}
+
+.category .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 924px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.table_1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.table_element{
+    font-family: 15px;
+    line-height: 23px;
+    color: #636363;
+    
+}
+
+    /* Footer */
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #484242;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_footer{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+
